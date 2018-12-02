@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003e3f40"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context="salimdev.torche.MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnSwitche"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/widgete_off"
+        android:background="@null"
+        android:contentDescription="@null"
+        />
+</LinearLayout>
